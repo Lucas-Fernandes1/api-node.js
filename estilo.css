@@ -1,0 +1,108 @@
+.login-all{
+	padding: 20px;
+	width: 300px;
+	height: 400px;
+	position: relative;
+	left: 500px;
+	top: 0px;
+	border-style: solid;
+	border-width: medium;
+	border-radius: 20px;
+	border-color: #0068C7;
+	font-family: calibri;
+}
+
+.logo{
+	position: relative;
+	left: 570px;
+	top: 10px;
+}
+
+::placeholder{
+	color: #696969;
+}
+
+
+a:hover{
+	text-decoration: underline;
+	color: gray;
+}
+
+.new-usr{
+	position: absolute;
+	top: 340px;
+	left: 130px;
+	text-decoration: none;
+
+}
+
+
+.titulo{
+	position: absolute;
+	top: 10px;
+	left: 142px;
+
+
+}
+
+.conect{
+	position: absolute;
+	left:95px;	
+	top: 300px;
+}
+
+.tit-senha{
+	position:absolute; 
+	top: 70px;
+	left: 98px;
+	font-weight: bold;
+
+}
+
+.tit-user{
+	position:absolute; 
+	top:30px;
+	left: 90px;
+	font-weight: bold;
+
+}
+.usuario{
+	position: absolute;
+	top:60px;
+	left: 45px;
+	height: 30px;
+}
+
+.senha{
+	position: absolute;
+	top: 110px;
+	left:45px;
+	height: 30px;
+	
+}
+
+.camp-lng input {
+	width: 30px;
+}
+
+.btn-login:hover{
+	color: white;
+	background-color: #013064;
+	font-weight: bold;
+
+
+}
+.btn-login{
+	color: white;
+	background-color: #00A7EE;
+	width: 150px;
+	height: 50px;
+	border-radius: 10px;
+	position: absolute;
+	top: 375px;
+	left: 100px;
+	border: none;
+	font-size: 15pt;
+
+}
+

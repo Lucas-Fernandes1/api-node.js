@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <title>Página Inicial</title>
+</head>
+<body>
+
+    <img src="img/logo.png" class="logo" alt="Logo Empresa" width="200px"> 
+    <div class="login-all">
+        
+        <h2 class="titulo">Login</h2><br>
+
+            <form action="http://127.0.0.1:3000/logar" method="POST">
+                <div class="camp-lgn">
+                    <div class="usuario">
+                        <label class="tit-user">USUÁRIO</label><br><br>
+                        <input type="text" class="usuario" placeholder="Insira seu usuário" name="usuario"><br><br>
+                    </div>
+        
+                    <div class="senha">
+                        <label class="tit-senha">SENHA</label><br><br>
+                        <input type="password" class="senha" placeholder="Insira sua senha" name="senha"><br><br>
+                    </div>	
+                </div>
+        
+                <div class="footer-log">
+                <a href="#" class="new-usr">Cadastre-se</a><br>
+        
+                <div class="conect">
+                <input type="checkbox" name="">
+                <label>Manter conectado</label><br><br>
+                </div>
+                <input type="submit" name="btn-lgn" class="btn-login">
+                </div>
+            </form>
+    </div>      
+    
+</body>
+</html>
